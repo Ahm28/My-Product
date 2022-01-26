@@ -1,0 +1,44 @@
+.bg-light-grey {
+  background-color: #e5e5e5;
+}
+
+.feature {
+  margin-top: -10px;
+  border-radius: 0 0 60% 60%;
+  /* border-radius: 50%; */
+}
+
+.feature .feature-head {
+  width: 50%;
+}
+
+/* .feature .btn {
+  width: 25%;
+}
+
+.quick-head .btn {
+  width: 25%;
+} */
+
+@media (max-width: 992px) {
+  .feature {
+    border-radius: 0 0 30% 30%;
+  }
+  .feature .feature-head {
+    width: 80%;
+  }
+  .feature .btn {
+    width: 30%;
+  }
+
+  .quick-head .paragraph {
+    width: 80% !important;
+  }
+
+  .left {
+    order: 2;
+  }
+  .right {
+    order: 1;
+  }
+}
