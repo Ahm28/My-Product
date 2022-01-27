@@ -10,6 +10,7 @@ body {
   color: var(--dark-blue-color);
 }
 
+/* Index */
 .text-primary-color {
   color: var(--primary-color);
 }
@@ -76,6 +77,23 @@ body {
   margin-top: -50px;
   padding-top: 80px;
 }
+/* index */
+
+/* pricing */
+.pricing {
+  margin-top: 90px;
+}
+
+.enterprise {
+  background: linear-gradient(180deg, #f7f7f7 0%, rgba(247, 247, 247, 0) 100%);
+}
+
+.line {
+  width: 100%;
+  height: 30px;
+  color: #adaaaa;
+}
+/* pricing */
 
 @media (max-width: 992px) {
   .feature {
