@@ -10,6 +10,10 @@ body {
   color: var(--dark-blue-color);
 }
 
+.heroes {
+  margin-top: 90px;
+}
+
 /* Index */
 .text-primary-color {
   color: var(--primary-color);
@@ -94,6 +98,18 @@ body {
   color: #adaaaa;
 }
 /* pricing */
+
+/* Clients */
+.clients {
+  margin-top: 90px;
+}
+/* Clients */
+
+/* costumer */
+.join {
+  background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+}
+/* costumer */
 
 @media (max-width: 992px) {
   .feature {
